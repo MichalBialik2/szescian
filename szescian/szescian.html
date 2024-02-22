@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <script src="szescian.js" defer></script>
+    <body>
+        <header>
+    
+        </header>
+        <div class="forms-div">
+                <label>Podaj długość boku szescianu</label>
+                <input type="text" id="first-element" />
+
+                <input
+                    type="radio"
+                    id="przekatna"
+                    name="type"
+                    value="przekatna"
+                />
+                <label for="przekatna">Długość przękątnej</label>
+
+                <input
+                    type="radio"
+                    id="objetosc"
+                    name="type"
+                    value="objetosc"
+                />
+                <label for="objetosc">Objętość</label>
+                
+                <input
+                    type="radio"
+                    id="polepowierzchni"
+                    name="type"
+                    value="polepowierzchni"
+                />
+            <label for="polepowierzchni">Pole powierzchni</label>
+                <input
+                    type="radio"
+                    id="kula"
+                    name="type"
+                    value="kula"
+                />
+            <label for="kula">Promień kuli wpisanej w szescian</label>
+
+                <input
+                    type="button"
+                    value="Oblicz"
+                    id="calculate"
+                />
+        </div>
+        <div class="elements-div">
+            <div class="elements-div__generated" id="elements"></div>
+        </div>
+    </body>
+</html>
